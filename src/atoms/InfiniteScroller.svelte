@@ -46,6 +46,9 @@ onMount(() => {
 .card-shadow {
 	box-shadow: 1px 3px 5px 1px #CBD5DF
 }
+.infinite-scroll {
+  font-family: Daniela;
+}
 </style>
 
 <svelte:window

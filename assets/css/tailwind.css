@@ -1,5 +1,17 @@
 @tailwind preflight;
 @tailwind components;
 
+@font-face {
+  font-family: Daniela;
+  src: url(../fonts/Daniela.ttf);
+}
+@font-face {
+  font-family: ShortStack;
+  src: url(../fonts/ShortStack-Regular.ttf);
+}
+body div * {
+  font-family: ShortStack;
+}
+
 @tailwind utilities;
 

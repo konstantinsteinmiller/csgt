@@ -6,9 +6,12 @@ export let name;
 </script>
 
 <style lang="sass">
-
+h1 {
+  font-family: ShortStack;
+}
 </style>
 
 <div class="bg-grey-lightest p-4 gra-br-red">
+  <h1> dasf dafd</h1>
   <InfiniteScroller></InfiniteScroller>
 </div>
