@@ -1,5 +1,7 @@
 <script>
 import '../assets/css/tailwind.css'
+import InfiniteScroller from './atoms/InfiniteScroller.svelte'
+
 export let name;
 </script>
 
@@ -7,6 +9,6 @@ export let name;
 
 </style>
 
-<div class="bg-grey-dark p-4 gra-br-red">
-  <h1 class="text-blue text-xxs">Hello {name}!</h1>
+<div class="bg-grey-lightest p-4 gra-br-red">
+  <InfiniteScroller></InfiniteScroller>
 </div>

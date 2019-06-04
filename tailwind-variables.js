@@ -39,6 +39,7 @@ const exactMeasurements = {
   '2g': '2rem',
   '3g': '3rem',
   '4g': '4rem',
+  '5g': '5rem',
   '6g': '6rem',
   '8g': '8rem',
   '10g': '10rem',

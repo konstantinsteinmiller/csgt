@@ -126,6 +126,53 @@ module.exports = {
       addUtilities(transitions, {
         variants: ['responsive']
       })
+    },
+    function({ addUtilities }) {
+      const wordBreak = {
+        '.break-word': {
+          'word-break': 'break-word'
+        },
+        '.break-all': {
+          'word-break': 'break-all'
+        }
+      }
+      addUtilities(wordBreak)
+    },
+    function({ addUtilities }) {
+      const absolutePositioning = {
+        '.top-0': {
+          top: '0'
+        },
+        '.left-0': {
+          left: '0'
+        },
+        '.right-0': {
+          right: '0'
+        },
+        '.bottom-0': {
+          bottom: '0'
+        }
+      }
+      addUtilities(absolutePositioning)
+    },
+    function({ addUtilities }) {
+      const listStyle = {
+        '.list-style-none': {
+          'list-style': 'none'
+        }
+      }
+      addUtilities(listStyle)
+    },
+    function({ addUtilities }) {
+      const boxShadow = {
+        '.card-shadow': {
+          'box-shadow': `1px 5px 12px 3px ${tailwindVariables.colors['grey']}`
+        },
+        '.dropdown-shadow': {
+          'box-shadow': `1px 3px 5px 1px ${tailwindVariables.colors['grey']}`
+        }
+      }
+      addUtilities(boxShadow)
     }
   ],
 
