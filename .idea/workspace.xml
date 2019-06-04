@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05af7f6-6498-4080-baaf-b930ae7a9824" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Daniela Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Daniela Italic Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Daniela Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Daniela.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Daniela.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/ShortStack-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/InfiniteScroller.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/InfiniteScroller.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <list id="0fe34b1b-b8be-41c0-a196-95c9b8738ee3" name="dont commit" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.svelte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="296">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#9#44#0#HTML" expanded="true" />
               </folding>
@@ -42,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/atoms/InfiniteScroller.svelte">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
@@ -90,9 +80,9 @@
         <option value="$PROJECT_DIR$/utils/index.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/atoms/InfiniteScroller.svelte" />
-        <option value="$PROJECT_DIR$/src/App.svelte" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/tailwind.css" />
+        <option value="$PROJECT_DIR$/src/App.svelte" />
       </list>
     </option>
   </component>
@@ -192,7 +182,7 @@
       <updated>1559675535116</updated>
       <workItem from="1559675536332" duration="5116000" />
       <workItem from="1559681494131" duration="89000" />
-      <workItem from="1559681630023" duration="9226000" />
+      <workItem from="1559681630023" duration="9271000" />
     </task>
     <task id="LOCAL-00001" summary="project setup svelte + tailwind + sass + axios">
       <created>1559682197611</created>
@@ -215,11 +205,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559688936699</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added fonts">
+      <created>1559690887007</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559690887007</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14431000" />
+    <option name="totallyTimeSpent" value="14476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1180" y="0" width="1380" height="1384" extended-state="0" />
@@ -264,7 +261,8 @@
     <MESSAGE value="project setup svelte + tailwind + sass + axios" />
     <MESSAGE value="added Readme.md and license.md" />
     <MESSAGE value="added inifinescroller component" />
-    <option name="LAST_COMMIT_MESSAGE" value="added inifinescroller component" />
+    <MESSAGE value="added fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fonts" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/svelte-preprocess-sass/out/module.js">
@@ -350,16 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.svelte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#9#44#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -369,6 +357,16 @@
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#10#42#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.svelte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#9#44#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

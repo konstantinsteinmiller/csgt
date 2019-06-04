@@ -12,6 +12,6 @@ h1 {
 </style>
 
 <div class="bg-grey-lightest p-4 gra-br-red">
-  <h1> dasf dafd</h1>
+  <h1 class="px-8">CSGT</h1>
   <InfiniteScroller></InfiniteScroller>
 </div>
