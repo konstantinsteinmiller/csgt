@@ -24,5 +24,8 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack-dev-server --content-base public"
+  },
+  "dependencies": {
+    "svelte-routing": "^1.2.0"
   }
 }
